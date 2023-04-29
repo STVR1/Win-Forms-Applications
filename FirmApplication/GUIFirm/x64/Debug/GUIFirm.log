@@ -1,0 +1,9 @@
+﻿  FirmForm.cpp
+C:\Users\user\Desktop\Академическая разница\ОАиП\сем2\Lab1\FirmApplication\GUIFirm\Delete.h(144,1): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+C:\Users\user\Desktop\Академическая разница\ОАиП\сем2\Lab1\FirmApplication\GUIFirm\Delete.h(146,1): warning C4965: неявная упаковка целого числа 0; используйте nullptr или явное приведение типов
+C:\Users\user\Desktop\Академическая разница\ОАиП\сем2\Lab1\FirmApplication\GUIFirm\FirmForm.h(285,22): warning C4101: e: неиспользованная локальная переменная
+C:\Users\user\Desktop\Академическая разница\ОАиП\сем2\Lab1\FirmApplication\GUIFirm\FirmForm.h(352,21): warning C4101: e: неиспользованная локальная переменная
+C:\Users\user\Desktop\Академическая разница\ОАиП\сем2\Lab1\FirmApplication\GUIFirm\FirmForm.h(439,34): warning C4101: e: неиспользованная локальная переменная
+  FirmForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+ClassFirm.lib(Firm.obj) : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/INCREMENTAL:NO"
+  GUIFirm.vcxproj -> C:\Users\user\Desktop\Академическая разница\ОАиП\сем2\Lab1\FirmApplication\x64\Debug\GUIFirm.exe

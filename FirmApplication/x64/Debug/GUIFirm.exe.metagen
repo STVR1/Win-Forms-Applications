@@ -1,0 +1,53 @@
+  GUIFirm.Add.resources - Embedded, ContainedInManifestFile, 
+  GUIFirm.Delete.resources - Embedded, ContainedInManifestFile, 
+  GUIFirm.FirmForm.resources - Embedded, ContainedInManifestFile, 
+  GUIFirm.EditForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly GUIFirm, Version=0.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class GUIFirm.EditForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.ComboBox ProjectComboBox : Public
+  Methods:
+    SetSize(Int32): PrivateScope, Public, HideBySig
+    SetList(Firm*): PrivateScope, Public, HideBySig
+Class GUIFirm.Delete: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.ComboBox DeleteNameComboBox : Public
+  Methods:
+    SetList(Firm*): PrivateScope, Public, HideBySig
+    SetSize(Int32): PrivateScope, Public, HideBySig
+    GetList(): PrivateScope, Public, HideBySig
+    GetSize(): PrivateScope, Public, HideBySig
+Class GUIFirm.Add: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SetList(Firm*): PrivateScope, Public, HideBySig
+    SetSize(Int32): PrivateScope, Public, HideBySig
+    GetList(): PrivateScope, Public, HideBySig
+    GetSize(): PrivateScope, Public, HideBySig
+Class GUIFirm.FirmForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Firm* List : Public
+    Int32 size : Public
+    System.String buf : Public
+    System.Windows.Forms.ComboBox NameComboBox : Public

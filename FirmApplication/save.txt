@@ -1,0 +1,49 @@
+Clothes store
+Back-end
+Artem 
+Checker
+7 weeks
+19.12.2023
+12.12.2023
+
+Clothes store
+Front-end
+Stas 
+Checker
+3 weeks
+17.12.2023
+15.12.2023
+
+Autoshop
+Machine learning
+Gleb
+Checker
+4 weeks
+14.11.2023
+11.11.2023
+
+Autoshop
+Back-end
+Timur
+Checker
+4 weeks
+13.11.2023
+11.11.2023
+
+AI Graph Visualisation
+.Net Developing
+Gleb
+Checker
+5 weeks
+12.11.2023
+11.11.2023
+
+AI Graph Visualisation
+Knoweledge Developer
+Dima
+Checker
+4 weeks
+12.11.2023
+09.11.2023
+
+
