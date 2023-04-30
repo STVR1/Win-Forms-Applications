@@ -192,8 +192,8 @@ namespace GUILibrary {
 			return;
 		}
 
-		MergeSortRegnum(start, start + (end - start) / 2);
-		MergeSortRegnum(start + (end - start) / 2, end);
+		MergeSortAmount(start, start + (end - start) / 2);
+		MergeSortAmount(start + (end - start) / 2, end);
 
 		Library<Info> list2;
 
@@ -254,8 +254,8 @@ namespace GUILibrary {
 			return;
 		}
 
-		MergeSortRegnum(start, start + (end - start) / 2);
-		MergeSortRegnum(start + (end - start) / 2, end);
+		MergeSortAuthor(start, start + (end - start) / 2);
+		MergeSortAuthor(start + (end - start) / 2, end);
 
 		Library<Info> list2;
 
@@ -316,8 +316,8 @@ namespace GUILibrary {
 			return;
 		}
 
-		MergeSortRegnum(start, start + (end - start) / 2);
-		MergeSortRegnum(start + (end - start) / 2, end);
+		MergeSortName(start, start + (end - start) / 2);
+		MergeSortName(start + (end - start) / 2, end);
 
 		Library<Info> list2;
 
@@ -378,8 +378,8 @@ namespace GUILibrary {
 			return;
 		}
 
-		MergeSortRegnum(start, start + (end - start) / 2);
-		MergeSortRegnum(start + (end - start) / 2, end);
+		MergeSortOffice(start, start + (end - start) / 2);
+		MergeSortOffice(start + (end - start) / 2, end);
 
 		Library<Info> list2;
 
@@ -440,8 +440,8 @@ namespace GUILibrary {
 			return;
 		}
 
-		MergeSortRegnum(start, start + (end - start) / 2);
-		MergeSortRegnum(start + (end - start) / 2, end);
+		MergeSortDate(start, start + (end - start) / 2);
+		MergeSortDate(start + (end - start) / 2, end);
 
 		Library<Info> list2;
 
