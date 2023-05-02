@@ -19,6 +19,8 @@ namespace GUIATS {
 
 		ATS<Info>* list = nullptr;
 
+		ATS<int>* arr = new ATS<int>;
+
 	public:
 
 		void SetList(ATS<Info>* list)
@@ -40,6 +42,7 @@ namespace GUIATS {
 
 		~MyDeleteForm()
 		{
+
 			if (components)
 			{
 				delete components;
@@ -129,7 +132,12 @@ namespace GUIATS {
 
 		this->DeleteComboBox->Items->Clear();
 
-		for (int i = 0; i < list->Size(); i++) this->DeleteComboBox->Items->Add(msclr::interop::marshal_as<String^>((*list)[i].GetCustomnumber()));
+		for (int i = 0; i < list->Size(); i++)
+			for (int j = 0; j <= i; j++)
+			{
+				if(i==j)this->DeleteComboBox->Items->Add(msclr::interop::marshal_as<String^>((*list)[i].GetCustomnumber()));
+				if((*list)[i].GetCustomnumber()==(*list)[j].GetCustomnumber())break;
+			}
 
 	}
 
@@ -142,7 +150,7 @@ namespace GUIATS {
 		for (int i = 0; i < list->Size(); i++)
 		{
 			if (this->DeleteComboBox->SelectedItem->ToString() == msclr::interop::marshal_as<String^>((*list)[i].GetCustomnumber()))
-				this->DateComboBox->Items->Add(msclr::interop::marshal_as<String^>((*list)[i].GetDate()));
+				this->DateComboBox->Items->Add(msclr::interop::marshal_as<String^>((*list)[i].GetDate())), arr->push_back(i);
 		}
 
 	}
@@ -151,7 +159,7 @@ namespace GUIATS {
 
     private: System::Void DateComboBox_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
 
-		int index = this->DateComboBox->SelectedIndex;
+		int index = (*arr)[this->DateComboBox->SelectedIndex];
 
 		this->DeleteMemoBox->AppendText(msclr::interop::marshal_as<String^>((*list)[index].GetDate()) + "\n");
 		this->DeleteMemoBox->AppendText(Convert::ToString((*list)[index].GetCode()) + "\n");
@@ -175,13 +183,17 @@ namespace GUIATS {
 
 		ATS<Info> newlist=ATS<Info>();
 
-		for (int i = this->DateComboBox->SelectedIndex + 1; i < list->Size(); i++)newlist.push_back((*list)[i]);
-		
-		for (int i = list->Size() - 1; i >= this->DateComboBox->SelectedIndex; i--)list->pop_back();
+		for (int i = (*arr)[this->DateComboBox->SelectedIndex]+1; i < list->Size(); i++) newlist.push_back((*list)[i]);
+
+		for (int i = list->Size() - 1; i >= (*arr)[this->DateComboBox->SelectedIndex]; i--)list->pop_back();
 
 		for (int i = 0; i < newlist.Size(); i++)list->push_back(newlist[i]);
 
 		MessageBox::Show(this, "Successfully deleted", "Success", MessageBoxButtons::OK, MessageBoxIcon::Information);
+
+		while (arr->Size() != 0)arr->pop_back();
+
+		delete arr;
 
 		Close();
 

@@ -6,3 +6,11 @@ C:\Users\user\Desktop\Programming\C++\sem2\Lab2\LibraryApplication\GUILibrary\x6
 C:\Users\user\Desktop\Programming\C++\sem2\Lab2\LibraryApplication\GUILibrary\x64\Debug\GUILibrary.MyDeleteForm.resources
 C:\Users\user\Desktop\Programming\C++\sem2\Lab2\LibraryApplication\GUILibrary\x64\Debug\GUILibrary.MyShowForm.resources
 C:\Users\user\Desktop\Programming\C++\sem2\Lab2\LibraryApplication\GUILibrary\x64\Debug\GUILibrary.MySortForm.resources
+C:\Users\user\Desktop\Programming\Push\Win-Forms-Applications\LibraryApplication\GUILibrary\x64\Debug\GUILibrary.vcxproj.AssemblyReference.cache
+C:\Users\user\Desktop\Programming\Push\Win-Forms-Applications\LibraryApplication\GUILibrary\x64\Debug\GUILibrary.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\Programming\Push\Win-Forms-Applications\LibraryApplication\GUILibrary\x64\Debug\GUILibrary.MyAddForm.resources
+C:\Users\user\Desktop\Programming\Push\Win-Forms-Applications\LibraryApplication\GUILibrary\x64\Debug\GUILibrary.MyDeleteForm.resources
+C:\Users\user\Desktop\Programming\Push\Win-Forms-Applications\LibraryApplication\GUILibrary\x64\Debug\GUILibrary.LibraryForm.resources
+C:\Users\user\Desktop\Programming\Push\Win-Forms-Applications\LibraryApplication\GUILibrary\x64\Debug\GUILibrary.MyShowForm.resources
+C:\Users\user\Desktop\Programming\Push\Win-Forms-Applications\LibraryApplication\GUILibrary\x64\Debug\GUILibrary.MySortForm.resources
+C:\Users\user\Desktop\Programming\Push\Win-Forms-Applications\LibraryApplication\GUILibrary\x64\Debug\GUILibrary.vcxproj.GenerateResource.cache

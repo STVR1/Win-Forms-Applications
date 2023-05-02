@@ -1,9 +1,11 @@
 ﻿  LibraryForm.cpp
-C:\Users\user\Desktop\Programming\C++\sem2\Lab2\LibraryApplication\GUILibrary\LibraryForm.h(292,35): warning C4101: e: неиспользованная локальная переменная
-C:\Users\user\Desktop\Programming\C++\sem2\Lab2\LibraryApplication\GUILibrary\LibraryForm.h(298,22): warning C4101: e: неиспользованная локальная переменная
-C:\Users\user\Desktop\Programming\C++\sem2\Lab2\LibraryApplication\GUILibrary\LibraryForm.h(397,34): warning C4101: e: неиспользованная локальная переменная
-C:\Users\user\Desktop\Programming\C++\sem2\Lab2\LibraryApplication\GUILibrary\LibraryForm.h(401,21): warning C4101: e: неиспользованная локальная переменная
-C:\Users\user\Desktop\Programming\C++\sem2\Lab2\LibraryApplication\ClassLibrary\ClassLibrary.h(144): warning C4715: Library<Info>::operator[]: значение возвращается не при всех путях выполнения
+C:\Users\user\Desktop\Programming\Push\Win-Forms-Applications\LibraryApplication\GUILibrary\LibraryForm.h(292,35): warning C4101: e: неиспользованная локальная переменная
+C:\Users\user\Desktop\Programming\Push\Win-Forms-Applications\LibraryApplication\GUILibrary\LibraryForm.h(298,22): warning C4101: e: неиспользованная локальная переменная
+C:\Users\user\Desktop\Programming\Push\Win-Forms-Applications\LibraryApplication\GUILibrary\LibraryForm.h(397,34): warning C4101: e: неиспользованная локальная переменная
+C:\Users\user\Desktop\Programming\Push\Win-Forms-Applications\LibraryApplication\GUILibrary\LibraryForm.h(401,21): warning C4101: e: неиспользованная локальная переменная
+  .NETFramework,Version=v4.8.AssemblyAttributes.cpp
+  Создание кода...
+C:\Users\user\Desktop\Programming\Push\Win-Forms-Applications\LibraryApplication\ClassLibrary\ClassLibrary.h(144): warning C4715: Library<Info>::operator[]: значение возвращается не при всех путях выполнения
   LibraryForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
 ClassLibrary.lib(ClassInfo.obj) : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/INCREMENTAL:NO"
-  GUILibrary.vcxproj -> C:\Users\user\Desktop\Programming\C++\sem2\Lab2\LibraryApplication\x64\Debug\GUILibrary.exe
+  GUILibrary.vcxproj -> C:\Users\user\Desktop\Programming\Push\Win-Forms-Applications\LibraryApplication\x64\Debug\GUILibrary.exe
