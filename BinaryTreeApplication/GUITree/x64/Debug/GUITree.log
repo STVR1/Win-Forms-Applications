@@ -1,0 +1,6 @@
+﻿  MyTreeForm.cpp
+C:\Users\user\Desktop\Programming\Push\Win-Forms-Applications\BinaryTreeApplication\GUITree\MyTreeForm.h(394,4): warning C4286: System::IO::IOException ^: перехвачено базовым классом ("System::Exception ^") в строке 385
+  .NETFramework,Version=v4.8.AssemblyAttributes.cpp
+  Создание кода...
+  MyTreeForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  GUITree.vcxproj -> C:\Users\user\Desktop\Programming\Push\Win-Forms-Applications\BinaryTreeApplication\x64\Debug\GUITree.exe
