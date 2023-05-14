@@ -1,0 +1,4 @@
+C:\Users\user\Desktop\Programming\HashApplication\HashApplication\x64\Debug\HashApplication.vcxproj.AssemblyReference.cache
+C:\Users\user\Desktop\Programming\HashApplication\HashApplication\x64\Debug\HashApplication.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\Programming\HashApplication\HashApplication\x64\Debug\HashApplication.MainForm.resources
+C:\Users\user\Desktop\Programming\HashApplication\HashApplication\x64\Debug\HashApplication.vcxproj.GenerateResource.cache

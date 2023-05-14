@@ -59,6 +59,12 @@ private:
 	{
 		if (!child)return;
 
+		if (parent == child && parent == root && parent->right == nullptr && parent->left == nullptr)
+		{
+			delete root, root = nullptr;
+			return;
+		}
+
 		if (parent == child && child->GetPair()->first == key)
 		{
 			TNode* field1 = child->right;

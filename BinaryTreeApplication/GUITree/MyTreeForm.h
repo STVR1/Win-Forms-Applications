@@ -565,7 +565,11 @@ namespace GUITree {
 			temp = tree->Postorder();
 			break;
 		}
-		default:return;
+		default:
+		{
+			MessageBox::Show(this, "Successfully balances", "Success", MessageBoxButtons::OK, MessageBoxIcon::Information);
+			return;
+		}
 		}
 
 		for (int i = 0; i < tree->Size(); i++)

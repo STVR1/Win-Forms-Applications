@@ -2,3 +2,7 @@ C:\Users\user\Desktop\Programming\C++\sem2\Lab2\BracketsCheckApplication\Bracket
 C:\Users\user\Desktop\Programming\C++\sem2\Lab2\BracketsCheckApplication\BracketsCheckApplication\x64\Debug\BracketsCheckApplication.vcxproj.SuggestedBindingRedirects.cache
 C:\Users\user\Desktop\Programming\C++\sem2\Lab2\BracketsCheckApplication\BracketsCheckApplication\x64\Debug\BracketsCheckApplication.MyBracketsCheckForm.resources
 C:\Users\user\Desktop\Programming\C++\sem2\Lab2\BracketsCheckApplication\BracketsCheckApplication\x64\Debug\BracketsCheckApplication.vcxproj.GenerateResource.cache
+C:\Users\user\Desktop\Programming\Push\Win-Forms-Applications\BracketsCheckApplication\BracketsCheckApplication\x64\Debug\BracketsCheckApplication.vcxproj.AssemblyReference.cache
+C:\Users\user\Desktop\Programming\Push\Win-Forms-Applications\BracketsCheckApplication\BracketsCheckApplication\x64\Debug\BracketsCheckApplication.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\Programming\Push\Win-Forms-Applications\BracketsCheckApplication\BracketsCheckApplication\x64\Debug\BracketsCheckApplication.MyBracketsCheckForm.resources
+C:\Users\user\Desktop\Programming\Push\Win-Forms-Applications\BracketsCheckApplication\BracketsCheckApplication\x64\Debug\BracketsCheckApplication.vcxproj.GenerateResource.cache
